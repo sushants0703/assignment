@@ -69,6 +69,7 @@ console.log((i<j) || (i==j)); //true or false = true
 console.log(!((i<j) || (i==j))); //not (true or false) = not true =false
 
 //5. Ternary operator ==> The special character used to perform a conditional operation. 
+//syntax : (condition ? statement1 : statement2)
 // (condition ? valueIfTrue : valueIfFalse)
 let age:number = 17;
 let canVote:string = (age>=18) ? "Eligible to Vote" : "Not-eligible to Vote";

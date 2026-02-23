@@ -1,7 +1,7 @@
 //Conditional Statements ==> Statements along with conditions
 //what is statement ? Statement meaning line of code. 
 
-// (condition){
+// if (condition){
 //statements
 // }
 
@@ -27,6 +27,15 @@ if (percentage > 75) {
 } else {
     console.log("Fail");
 }
+
+//Ternary if else
+
+    let age = 20;
+
+age >= 18 
+  ? console.log("Adult") 
+  : console.log("Minor");
+
 
 //2. switch case conditional statement ==> Will be used when we know the result of condition. Now we want to choose one option among multiple. 
 let env: string = "prod";
