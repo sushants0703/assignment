@@ -1,0 +1,266 @@
+{
+  "loginPage": {
+    "title": "OrangeHRM",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+    "formElements": [
+      {
+        "type": "hidden",
+        "name": "_token",
+        "placeholder": null,
+        "id": null
+      },
+      {
+        "type": null,
+        "name": "username",
+        "placeholder": "Username",
+        "id": null
+      },
+      {
+        "type": "password",
+        "name": "password",
+        "placeholder": "Password",
+        "id": null
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Login",
+        "type": "submit"
+      }
+    ],
+    "errors": []
+  },
+  "homePage": {
+    "title": "OrangeHRM",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+    "mainElements": [],
+    "menuStructure": [
+      {
+        "text": "Admin",
+        "href": "/web/index.php/admin/viewAdminModule",
+        "isClickable": true
+      },
+      {
+        "text": "PIM",
+        "href": "/web/index.php/pim/viewPimModule",
+        "isClickable": true
+      },
+      {
+        "text": "Leave",
+        "href": "/web/index.php/leave/viewLeaveModule",
+        "isClickable": true
+      },
+      {
+        "text": "Time",
+        "href": "/web/index.php/time/viewTimeModule",
+        "isClickable": true
+      },
+      {
+        "text": "Recruitment",
+        "href": "/web/index.php/recruitment/viewRecruitmentModule",
+        "isClickable": true
+      },
+      {
+        "text": "My Info",
+        "href": "/web/index.php/pim/viewMyDetails",
+        "isClickable": true
+      }
+    ]
+  },
+  "menuItems": [
+    {
+      "name": "Admin",
+      "originalHref": "/web/index.php/admin/viewAdminModule",
+      "navigatedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+      "pageTitle": "OrangeHRM",
+      "bodyPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nAdmin\nUser Management\nUpgrade\n\ntest123 test123\n\nUser Management \nJob \nOrganization \nQualifications \nNationalities\nCorporate Branding\nConfiguration \nSystem Users\nUsername\nUser Role\n-- Select --\nEmployee Na",
+      "mainHeadings": []
+    },
+    {
+      "name": "PIM",
+      "originalHref": "/web/index.php/pim/viewPimModule",
+      "navigatedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+      "pageTitle": "OrangeHRM",
+      "bodyPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nPIM\nUpgrade\n\ntest123 test123\n\nConfiguration \nEmployee List\nAdd Employee\nReports\nEmployee Information\nEmployee Name\nEmployee Id\nEmployment Status\n-- Select --\nInclude\nCurrent Employees Only\nSupervisor Name",
+      "mainHeadings": []
+    },
+    {
+      "name": "Leave",
+      "originalHref": "/web/index.php/leave/viewLeaveModule",
+      "navigatedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+      "pageTitle": "OrangeHRM",
+      "bodyPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nLeave\nUpgrade\n\ntest123 test123\n\nApply\nMy Leave\nEntitlements \nReports \nConfigure \nLeave List\nAssign Leave\nLeave List\nFrom Date\nTo Date\nShow Leave with Status\n-- Select --\nPending Approval\nLeave Type\n-- Sel",
+      "mainHeadings": []
+    },
+    {
+      "name": "Time",
+      "originalHref": "/web/index.php/time/viewTimeModule",
+      "navigatedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+      "pageTitle": "OrangeHRM",
+      "bodyPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nTime\nTimesheets\nUpgrade\n\ntest123 test123\n\nTimesheets \nAttendance \nReports \nProject Info \nSelect Employee\nEmployee Name\n\n* Required\n\nView\n\n\nTimesheets Pending Action\n(4) Records Found\nEmployee Name\nTimeshe",
+      "mainHeadings": []
+    },
+    {
+      "name": "Recruitment",
+      "originalHref": "/web/index.php/recruitment/viewRecruitmentModule",
+      "navigatedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+      "pageTitle": "OrangeHRM",
+      "bodyPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nRecruitment\nUpgrade\n\ntest123 test123\n\nCandidates\nVacancies\nCandidates\nJob Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nCandidate Name\nKeywords\nDate of Applicatio",
+      "mainHeadings": []
+    },
+    {
+      "name": "My Info",
+      "originalHref": "/web/index.php/pim/viewMyDetails",
+      "navigatedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+      "pageTitle": "OrangeHRM",
+      "bodyPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nPIM\nUpgrade\n\ntest123 test123\n\ntest123 test123\nPersonal Details\nContact Details\nEmergency Contacts\nDependents\nImmigration\nJob\nSalary\nReport-to\nQualifications\nMemberships\nPersonal Details\nEmployee Full Name",
+      "mainHeadings": []
+    },
+    {
+      "name": "Performance",
+      "originalHref": "/web/index.php/performance/viewPerformanceModule",
+      "navigatedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+      "pageTitle": "OrangeHRM",
+      "bodyPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nPerformance\nManage Reviews\nUpgrade\n\ntest123 test123\n\nConfigure \nManage Reviews \nMy Trackers\nEmployee Trackers\nEmployee Reviews\nEmployee Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nInclude\nCurrent Em",
+      "mainHeadings": []
+    },
+    {
+      "name": "Dashboard",
+      "originalHref": "/web/index.php/dashboard/index",
+      "navigatedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+      "pageTitle": "OrangeHRM",
+      "bodyPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nDashboard\nUpgrade\n\ntest123 test123\n\nTime at Work\n\nPunched Out\n\nPunched Out: Today at 05:32 PM (GMT 5)\n\n0h 10m Today\n\nThis Week\n\nApr 27 - May 03\n\n0h 10m\n\nMy Actions\n\n(1) Pending Self Review\n\n(1) Candidate ",
+      "mainHeadings": []
+    },
+    {
+      "name": "Directory",
+      "originalHref": "/web/index.php/directory/viewDirectory",
+      "navigatedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+      "pageTitle": "OrangeHRM",
+      "bodyPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nDirectory\nUpgrade\n\ntest123 test123\n\nDirectory\nEmployee Name\nJob Title\n-- Select --\nLocation\n-- Select --\nReset\nSearch\n\n\n(139) Records Found\n\nA8DCo 4Ys 010Z\n\n123445 34 444444\n\n99N75 425 5TlV\n\nyedghjb1 ru84",
+      "mainHeadings": []
+    },
+    {
+      "name": "Maintenance",
+      "originalHref": "/web/index.php/maintenance/viewMaintenanceModule",
+      "navigatedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+      "pageTitle": "OrangeHRM",
+      "bodyPreview": "Administrator Access\n\n\nYou have requested to access a critical Administrator function in OrangeHRM and are required to validate your credentials below\nUsername\nPassword\nCancel\nConfirm\n\n\n\nOrangeHRM OS 5.8\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.",
+      "mainHeadings": []
+    },
+    {
+      "name": "Claim",
+      "originalHref": "/web/index.php/claim/viewClaimModule",
+      "navigatedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+      "pageTitle": "OrangeHRM",
+      "bodyPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nClaim\nUpgrade\n\ntest123 test123\n\nConfiguration \nSubmit Claim\nMy Claims\nEmployee Claims\nAssign Claim\nEmployee Claims\nEmployee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\n",
+      "mainHeadings": []
+    },
+    {
+      "name": "Buzz",
+      "originalHref": "/web/index.php/buzz/viewBuzz",
+      "navigatedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+      "pageTitle": "OrangeHRM",
+      "bodyPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nBuzz\nUpgrade\n\ntest123 test123\n\n Most Recent Posts\n Most Liked Posts\n Most Commented Posts\n\nBuzz Newsfeed\n\nPost\nShare Photos\nShare Video\n\ntest123 akhil test123\n\n2020-08-10 09:08 AM\n\nHi All;\r\n\r\nLinda has be",
+      "mainHeadings": []
+    }
+  ],
+  "menuMap": [
+    {
+      "menuItem": "Admin",
+      "navigationLink": "/web/index.php/admin/viewAdminModule",
+      "destinationUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+      "pageTitle": "OrangeHRM",
+      "mainHeadings": [],
+      "contentPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nAdmin\nUser Management\nUpgrade\n\ntest123 test123\n\nUser Management \nJob \nOrganization \nQualifications \nNationalities\nCorporate Branding\nConfiguration \nSystem Users\nUsername\nUser Role\n-- Select --\nEmployee Na"
+    },
+    {
+      "menuItem": "PIM",
+      "navigationLink": "/web/index.php/pim/viewPimModule",
+      "destinationUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+      "pageTitle": "OrangeHRM",
+      "mainHeadings": [],
+      "contentPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nPIM\nUpgrade\n\ntest123 test123\n\nConfiguration \nEmployee List\nAdd Employee\nReports\nEmployee Information\nEmployee Name\nEmployee Id\nEmployment Status\n-- Select --\nInclude\nCurrent Employees Only\nSupervisor Name"
+    },
+    {
+      "menuItem": "Leave",
+      "navigationLink": "/web/index.php/leave/viewLeaveModule",
+      "destinationUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+      "pageTitle": "OrangeHRM",
+      "mainHeadings": [],
+      "contentPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nLeave\nUpgrade\n\ntest123 test123\n\nApply\nMy Leave\nEntitlements \nReports \nConfigure \nLeave List\nAssign Leave\nLeave List\nFrom Date\nTo Date\nShow Leave with Status\n-- Select --\nPending Approval\nLeave Type\n-- Sel"
+    },
+    {
+      "menuItem": "Time",
+      "navigationLink": "/web/index.php/time/viewTimeModule",
+      "destinationUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+      "pageTitle": "OrangeHRM",
+      "mainHeadings": [],
+      "contentPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nTime\nTimesheets\nUpgrade\n\ntest123 test123\n\nTimesheets \nAttendance \nReports \nProject Info \nSelect Employee\nEmployee Name\n\n* Required\n\nView\n\n\nTimesheets Pending Action\n(4) Records Found\nEmployee Name\nTimeshe"
+    },
+    {
+      "menuItem": "Recruitment",
+      "navigationLink": "/web/index.php/recruitment/viewRecruitmentModule",
+      "destinationUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+      "pageTitle": "OrangeHRM",
+      "mainHeadings": [],
+      "contentPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nRecruitment\nUpgrade\n\ntest123 test123\n\nCandidates\nVacancies\nCandidates\nJob Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nCandidate Name\nKeywords\nDate of Applicatio"
+    },
+    {
+      "menuItem": "My Info",
+      "navigationLink": "/web/index.php/pim/viewMyDetails",
+      "destinationUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+      "pageTitle": "OrangeHRM",
+      "mainHeadings": [],
+      "contentPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nPIM\nUpgrade\n\ntest123 test123\n\ntest123 test123\nPersonal Details\nContact Details\nEmergency Contacts\nDependents\nImmigration\nJob\nSalary\nReport-to\nQualifications\nMemberships\nPersonal Details\nEmployee Full Name"
+    },
+    {
+      "menuItem": "Performance",
+      "navigationLink": "/web/index.php/performance/viewPerformanceModule",
+      "destinationUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+      "pageTitle": "OrangeHRM",
+      "mainHeadings": [],
+      "contentPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nPerformance\nManage Reviews\nUpgrade\n\ntest123 test123\n\nConfigure \nManage Reviews \nMy Trackers\nEmployee Trackers\nEmployee Reviews\nEmployee Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nInclude\nCurrent Em"
+    },
+    {
+      "menuItem": "Dashboard",
+      "navigationLink": "/web/index.php/dashboard/index",
+      "destinationUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+      "pageTitle": "OrangeHRM",
+      "mainHeadings": [],
+      "contentPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nDashboard\nUpgrade\n\ntest123 test123\n\nTime at Work\n\nPunched Out\n\nPunched Out: Today at 05:32 PM (GMT 5)\n\n0h 10m Today\n\nThis Week\n\nApr 27 - May 03\n\n0h 10m\n\nMy Actions\n\n(1) Pending Self Review\n\n(1) Candidate "
+    },
+    {
+      "menuItem": "Directory",
+      "navigationLink": "/web/index.php/directory/viewDirectory",
+      "destinationUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+      "pageTitle": "OrangeHRM",
+      "mainHeadings": [],
+      "contentPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nDirectory\nUpgrade\n\ntest123 test123\n\nDirectory\nEmployee Name\nJob Title\n-- Select --\nLocation\n-- Select --\nReset\nSearch\n\n\n(139) Records Found\n\nA8DCo 4Ys 010Z\n\n123445 34 444444\n\n99N75 425 5TlV\n\nyedghjb1 ru84"
+    },
+    {
+      "menuItem": "Maintenance",
+      "navigationLink": "/web/index.php/maintenance/viewMaintenanceModule",
+      "destinationUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+      "pageTitle": "OrangeHRM",
+      "mainHeadings": [],
+      "contentPreview": "Administrator Access\n\n\nYou have requested to access a critical Administrator function in OrangeHRM and are required to validate your credentials below\nUsername\nPassword\nCancel\nConfirm\n\n\n\nOrangeHRM OS 5.8\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved."
+    },
+    {
+      "menuItem": "Claim",
+      "navigationLink": "/web/index.php/claim/viewClaimModule",
+      "destinationUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+      "pageTitle": "OrangeHRM",
+      "mainHeadings": [],
+      "contentPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nClaim\nUpgrade\n\ntest123 test123\n\nConfiguration \nSubmit Claim\nMy Claims\nEmployee Claims\nAssign Claim\nEmployee Claims\nEmployee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\n"
+    },
+    {
+      "menuItem": "Buzz",
+      "navigationLink": "/web/index.php/buzz/viewBuzz",
+      "destinationUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+      "pageTitle": "OrangeHRM",
+      "mainHeadings": [],
+      "contentPreview": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nBuzz\nUpgrade\n\ntest123 test123\n\n Most Recent Posts\n Most Liked Posts\n Most Commented Posts\n\nBuzz Newsfeed\n\nPost\nShare Photos\nShare Video\n\ntest123 akhil test123\n\n2020-08-10 09:08 AM\n\nHi All;\r\n\r\nLinda has be"
+    }
+  ]
+}
